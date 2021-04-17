@@ -1,0 +1,73 @@
+<!doctype html>
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"></main>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
+
+    <title>Admin</title>
+    <link rel="stylesheet" href="/css/edit.css" />
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/dashboard/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/admin.css" rel="stylesheet">
+  </head>
+  <body background="https://th.bing.com/th/id/Rc5ea2140710e343706e1d84ded86e5e5?rik=g6IfVRHzi%2ftNOA&pid=ImgRaw"> 
+   
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Admin</a>
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="/logout">Log Out</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <span data-feather="home"></span>
+                  Users <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/post1">
+                  <span data-feather="file"></span>
+                  Post
+                </a>
+              </li>
+    
+            </ul>
+          </div>
+        </nav>>
+
+    <!-- Custom styles for this template -->
+    <link href="css/post.css" rel="stylesheet">
+  </head>
+
+	<body class="col-md-9 ml-sm-auto col-lg-10 px-4">
+		<div class="login-form">
+			<h1>Add Post</h1>
+
+			<form action="addPost" method="POST" enctype="multipart/form-data">
+				<input type="text" name="file" placeholder="Enter file name" required>
+				<input type="text" name="title" placeholder="title" required>
+       <input type="about" name="about" placeholder="Enter about" required>
+       <input type="file" name="picture" placeholder="Photo" required>
+       <input type="date" name="date" placeholder="Enter date" required>
+				<button type="submit" class="btn  btn-primary">Create</button>
+			</form>
+		</div>
+	</body>
+</html>

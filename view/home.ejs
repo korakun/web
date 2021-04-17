@@ -1,0 +1,106 @@
+
+<!--doctype html-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <style>
+        body {
+            font-family: poppins;
+        }
+    </style>
+
+</head>
+<% for(var i = users.length-1; i >=0; i--) { %>
+<link rel="stylesheet" href="css/home.css">
+<body background="https://th.bing.com/th/id/Rc5ea2140710e343706e1d84ded86e5e5?rik=g6IfVRHzi%2ftNOA&pid=ImgRaw">
+</body>
+
+<!--navigation-------------->
+<nav>
+    <!--using FontAwesome--------------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style2.css">
+
+    <!--menu--btn----------------->
+    <input type="checkbox" class="menu-btn" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+    </label>
+
+    <!--menu-------------->
+    <ul class="menu">
+        <li><a href="Poster" class="button">Poster</a></li>
+        <li><a href="login" class="button">login</a></li>
+        <li><a href="register" class="button">register</a></li>
+    </ul>
+    <!--search------------->
+    <div class="search">
+        
+        <input type="text" placeholder="Find Your Favourtie Movies" />
+        <!--search-icon----------->
+        <i class="fas fa-search"></i>
+    </div>
+    <% } %>
+</nav>
+<section style="height: 100px">
+</section>
+<div class="movies-heading">
+    <h2>Movies</h2>
+</div>
+<section id="movies-list">
+    <!--box-1------------------------>
+    <div class="movies-box">
+        <!--img------------>
+        <div class="movies-img">
+          <div class="quality">HDRip</div>
+
+            <img src="photos/got.jpg" style="width: 100%; height:100%">
+
+        </div>
+        <!--text--------->
+        <a href="">
+            Game of thrones
+        </a>
+    </div>
+    <!--box-2------------------------>
+    <div class="movies-box">
+        <!--img------------>
+        <div class="movies-img">
+            <div class="quality">HDRip</div>
+            <img src="photos/vikings.jpg">
+        </div>
+        <!--text--------->
+        <a href="vik">
+            Vikings
+        </a>
+    </div>
+    <!--box-3------------------------>
+    <div class="movies-box">
+        <!--img------------>
+        <div class="movies-img">
+            <div class="quality">HDRip</div>
+            <img src="photos/goblin.jpg">
+        </div>
+        <!--text--------->
+        <a href="goblin">
+            Goblin
+        </a>
+    </div>
+    <!--box-4------------------------>
+    <div class="movies-box">
+        <!--img------------>
+        <div class="movies-img">
+            <div class="quality">HDRip</div>
+            <img src="photos/moon.jpg">
+        </div>
+        <!--text--------->
+        <a href="moon">
+            Moon lovers
+        </a>
+    </div>
+    <h3>News</h3>
+<style>
+
+</style>
